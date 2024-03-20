@@ -7,6 +7,8 @@ npm init -y
 
 ```bash
 npm i -D tailwindcss postcss autoprefixer
+# or
+npm i -D tailwindcss
 ```
 
 ## Inisialisasi Tailwind CSS
