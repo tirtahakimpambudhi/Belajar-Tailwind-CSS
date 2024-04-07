@@ -1,0 +1,3 @@
+@tailwind base; /* mereset semua stye dari browser*/
+@tailwind components; /* membuat component dari library nya*/
+@tailwind utilities; /* compile */
