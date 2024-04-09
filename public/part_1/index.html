@@ -4,32 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Belajar Tailwind CSS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../../src/dist/output.css">
-    <style>
+    <!-- <style>
         * {
             border: 1px solid #252525;
         }
-    </style>
+    </style> -->
 </head>
 <body>
     <main class="container m-4">
-        <section class="mb-10">
+        <h1 class="text-center my-10 text-6xl font-bold">Mari Belajar <span class="bg-gradient-to-r from-blue-500 to-teal-400 bg-clip-text text-transparent">Tailwind CSS</span></h1>
+        <section class="mb-10 bg-gradient-to-br from-indigo-400 via-red-500 to-yellow-300">
             <h2>Spacing</h2>
             <div class="m-13">Margin</div>
             <div class="p-[10px]">Padding</div>
         </section>
-        <section>
+        <section class="bg-gradient-to-r from-teal-800 via-teal-600 to-teal-300">
             <h2>Sizing</h2>
             <div class="mx-auto my-8 w-96 text-center">width</div>
             <div class="mx-auto my-8 h-20 text-center p-5">height</div>
         </section>
-        <section class="mb-[400px]">
-            <h2>Typography</h2>
-            <div class="mb-4">Belajar Typography By Tirta Hakim Pambudhi</div>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique voluptates ab atque magni itaque, eos optio a sit dignissimos, rem ut error reprehenderit repellendus. Deserunt explicabo cupiditate, hic dignissimos laudantium facere doloremque ratione quam reprehenderit fugit ab assumenda inventore cum soluta molestiae, deleniti saepe modi a, velit ad perferendis! Iure.</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A eligendi aspernatur maiores repellendus eaque sunt facere, accusamus exercitationem recusandae inventore.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste delectus alias perspiciatis rem mollitia nemo esse laborum ab error similique rerum modi quo deleniti, fuga facere nesciunt velit voluptatum vitae.</p>
-        </section>
+        <section class="mt-[100px] mx-auto mb-[400px] text-center font-inter">
+            <h2 class="mb-2 text-4xl font-semibold">Belajar Typography Memakai Tailwind CSS</h2>
+            <div class="mb-4 text-lg text-start ml-4 text-gray-500">Belajar Typography By <a href="#" class="text-gray-700">Tirta Hakim Pambudhi</a></div>
+            <div class="text-justify">
+            <p class="mb-4">Lorem, ipsum dolor sit amet <a href="#" class="font-bold underline text-blue-400">consectetur</a> adipisicing elit. Similique voluptates ab atque magni itaque, eos optio a sit dignissimos, rem ut error reprehenderit repellendus. Deserunt explicabo cupiditate, hic dignissimos laudantium facere doloremque ratione quam reprehenderit fugit ab assumenda inventore cum soluta molestiae, deleniti saepe modi a, velit ad perferendis! Iure.</p>
+            <blockquote class="mb-4 italic font-thin text-l">"Lorem ipsum, dolor sit amet consectetur adipisicing elit. A eligendi aspernatur maiores repellendus eaque sunt facere, accusamus exercitationem recusandae inventore."</blockquote>
+            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste delectus alias perspiciatis rem mollitia nemo esse laborum ab error similique rerum modi quo deleniti, fuga facere nesciunt velit voluptatum vitae.</p>
+            </div>
+            </section>
     </main>
 </body>
 </html>

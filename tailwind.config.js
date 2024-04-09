@@ -5,6 +5,13 @@ module.exports = {
     extend: {
       spacing : {
         13 : '3.25rem',
+      },
+      fontFamily: {
+        inter : ['Inter']
+      },
+      colors : {
+        body : '#fcfbed',
+        p : '#26402b'
       }
     },
   },
