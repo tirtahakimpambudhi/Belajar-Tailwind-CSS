@@ -556,7 +556,95 @@ video {
 
 /* mereset semua stye dari browser*/
 
+.container {
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+
 /* membuat component dari library nya*/
+
+.m-13 {
+  margin: 3.25rem;
+}
+
+.m-4 {
+  margin: 1rem;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mb-\[400px\] {
+  margin-bottom: 400px;
+}
+
+.h-20 {
+  height: 5rem;
+}
+
+.w-96 {
+  width: 24rem;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.p-5 {
+  padding: 1.25rem;
+}
+
+.p-\[10px\] {
+  padding: 10px;
+}
+
+.text-center {
+  text-align: center;
+}
 
 .text-5xl {
   font-size: 3rem;
@@ -565,11 +653,6 @@ video {
 
 .font-bold {
   font-weight: 700;
-}
-
-.text-slate-400 {
-  --tw-text-opacity: 1;
-  color: rgb(148 163 184 / var(--tw-text-opacity));
 }
 
 .text-slate-900 {
